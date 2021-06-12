@@ -1,0 +1,72 @@
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+h2{
+	color:#f60;
+	margin-top:40px;
+	text-decoration: underline;
+}
+
+
+/* Animation Start Here */
+.load{
+	height:80px;
+	width:80px; 
+	position:absolute;
+	top:250px;
+	left:650px;
+}
+.load .asp{
+	height: 33%;
+	width: 33%;
+	border-radius: 20%;
+	float:left;
+	animation:sp 1s 0s infinite ease-in-out;
+}
+
+.load .sm1{
+	animation-delay:0.2s;
+	background-color:blue;
+}
+
+.load .sm2{
+	animation-delay:0.3s;
+	background-color:red;
+}
+.load .sm3{
+	animation-delay:0.4s;
+	background-color:green;
+}
+.load .sm4{
+	animation-delay:0.1s;
+	background-color:pink;
+}
+.load .sm5{
+	animation-delay:0.2s;
+	background-color:#0a8ae6;
+}
+.load .sm6{
+	animation-delay:0.3s;
+	background-color:gold;
+}
+.load .sm7{
+	animation-delay:0s;
+	background-color:#f60;
+}
+.load .sm8{
+	animation-delay:0.1s;
+	background-color:#eeffaa;
+}
+.load .sm9{
+	animation-delay:0.2s;
+	background-color:#4ff322;
+}
+
+
+@keyframes sp{
+	0%,70%,100%{transform: scale3d(1,1,1);}
+	35%{transform: scale3d(0,0,1);}
+}

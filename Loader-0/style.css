@@ -1,0 +1,22 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+
+/* Animation Start Here */
+.load{
+	height:300px;
+	width:1366px;
+	animation:asp 10s infinite linear;
+}
+
+
+@keyframes asp{
+	0%{background-image:url('img-1.jpg');}
+	20%{background-image:url('img-2.jpg');}
+	40%{background-image:url('img-3.jpg');}
+	60%{background-image:url('img-4.jpg');}
+	80%{background-image:url('img-5.jpg');}
+	100%{background-image:url('img-3.jpg');}
+}

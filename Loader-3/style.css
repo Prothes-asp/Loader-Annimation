@@ -1,0 +1,31 @@
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+h2{
+	color:#f60;
+	margin-top:40px;
+	text-decoration: underline;
+}
+
+
+/* Circle-animation Start Here */
+
+.circle-animation-1{
+	height:120px;
+	width:120px;
+	content:"";
+	margin-left:650px;
+	margin-top:190px;
+	border-radius:50%;
+	border:12px solid #f60;
+	border-color:#f60 transparent;
+	animation:asp 1s 0s infinite linear;
+}
+
+@keyframes asp{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}

@@ -1,0 +1,47 @@
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+h2{
+	color:#f60;
+	margin-top:40px;
+	text-decoration: underline;
+}
+
+
+/* Animation Start Here */
+.load{
+	height: 100px;
+	width: 100px;
+	position: relative;
+	margin-top:190px;
+	margin-left:650px;
+}
+.bounced-1{
+	height:100%;
+	width:100%;
+	background-color: gray;
+	border-radius:50%;
+	position: absolute;
+	top: 0px;
+	left:0px;
+	opacity: 0.6;
+	animation:asp 2s infinite ease-in-out;
+}
+.bounced-2{
+	height:100%;
+	width:100%;
+	background-color: blue;
+	border-radius:50%;
+	position: absolute;
+	top: 0px;
+	left:0px;
+	animation:asp 2s -1.5s infinite ease-in-out;
+}
+
+@keyframes asp{
+	0%,100%{transform: scale(0);}
+	50%{transform: scale(1);}
+}

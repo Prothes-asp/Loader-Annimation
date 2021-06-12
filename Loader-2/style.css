@@ -1,0 +1,80 @@
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+h2{
+	color:#f60;
+	margin-top:40px;
+	text-decoration: underline;
+}
+
+
+/* Circle-animation Start Here */
+
+.circle-animation-1{
+	height:120px;
+	width:120px;
+	border-radius:50%;
+	float: left;
+	margin-left:70px;
+	margin-top:170px;
+	border-top:12px solid red;
+	border-right:12px solid gray;
+	border-bottom:12px solid #f60;
+	border-left:12px solid green;
+	animation:asp 1s 0s infinite linear;
+}
+
+@keyframes asp{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
+
+.circle-animation-2{
+	height:120px;
+	width:120px;
+	border-radius:50%;
+	float: left;
+	margin-left:450px;
+	margin-top:170px;
+	border-top:12px solid red;
+	border-right:12px solid gray;
+	border-bottom:12px solid #f60;
+	border-left:12px solid green;
+}
+
+.circle-animation-2:hover{
+	animation:sp 1s 0s infinite linear;
+}
+
+@keyframes sp{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
+
+
+
+.circle-animation-3{
+	height:120px;
+	width:120px;
+	border-radius:50%;
+	float: right;
+	margin-right:70px;
+	margin-top:170px;
+	border-top:12px solid red;
+	border-right:12px solid gray;
+	border-bottom:12px solid #f60;
+	border-left:12px solid green;
+	animation:sp 1s 0s infinite linear;
+}
+
+.circle-animation-3:hover{
+	animation-play-state:paused;
+}
+
+@keyframes sp{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}

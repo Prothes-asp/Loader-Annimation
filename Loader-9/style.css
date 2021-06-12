@@ -1,0 +1,48 @@
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+h2{
+	color:#f60;
+	margin-top:40px;
+	text-decoration: underline;
+}
+
+
+/* Animation Start Here */
+
+.load{
+	height:100px;
+	width: 100px;
+	position: relative;
+	top:190px;
+	left:650px;
+	display: inline-block;
+}
+.load div{
+	height: 22px;
+	width: 16px;
+	background-color: gray;
+	display: inline-block;
+	position: absolute;
+	animation:asp 1.5s 0s infinite cubic-bezier(0,0.5,0.5,1);
+}
+.load div:nth-child(1){
+	animation-delay:-0.24s;
+	left:8px;
+}
+.load div:nth-child(2){
+	animation-delay:-0.12s;
+	left:32px;
+}
+.load div:nth-child(3){
+	animation-delay:-0s;
+	left:56px;
+}
+
+@keyframes asp{
+	0%{top:8px;height:100px;}
+	50%,100%{top:24px;height:45px;}
+}

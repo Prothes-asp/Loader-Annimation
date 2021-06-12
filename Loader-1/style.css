@@ -1,0 +1,47 @@
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+h2{
+	color:#f60;
+	margin-top:40px;
+	text-decoration: underline;
+}
+
+.txt-animation{
+	margin:20px;
+}
+
+.txt-animation h1{
+	margin-bottom:10px;
+}
+
+/* For Heading Animation */
+
+.txt-animation h1{
+	animation:asp 6s 0s infinite linear;
+}
+
+@keyframes asp{
+	0%{color:red;}
+	25%{color:green;}
+	50%{color:yellow;}
+	75%{color:#f60;}
+	100%{color:blue;}
+}
+
+
+/* For Paragraph Animation */
+
+.txt-animation p{
+	animation:sm 6s 1s infinite linear;
+}
+@keyframes sm{
+	0%{color:blue;}
+	25%{color:#f60;}
+	50%{color:pink;}
+	75%{color:green;}
+	100%{color:red;}
+}

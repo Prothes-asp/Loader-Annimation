@@ -1,0 +1,28 @@
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+h2{
+	color:#f60;
+	margin-top:40px;
+	text-decoration: underline;
+}
+
+
+/* Animation Start Here */
+.load{
+	height: 120px;
+	width: 120px;
+	background-color: #f60;
+	margin-top:190px;
+	margin-left: 650px;
+	animation:asp 2s 0s infinite ease-in-out;
+}
+
+@keyframes asp{
+	0%{transform:perspective(120px);}
+	50%{transform:perspective(120px) rotateY(180deg);}
+	100%{transform:perspective(120px) rotateY(180deg) rotateX(180deg);}
+}
